@@ -1,0 +1,26 @@
+{
+  "name": "dcd-store-influxdb",
+  "version": "0.0.1",
+  "description": "InfluxDB store for the Data-Centric Design Hub.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "LOG_LEVEL=DEBUG INFLUXDB_HOST=localhost KAFKA=true KAFKA_HOST=192.168.1.101 KAFKA_PORT=9092 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacentricdesign/dcd-store-influxdb.git"
+  },
+  "author": "Jacky Bourgeois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datacentricdesign/dcd-store-influxdb/issues"
+  },
+  "homepage": "https://github.com/datacentricdesign/dcd-store-influxdb#README",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "dcd-model": "^0.0.1",
+    "kafka-node": "^3.0.1",
+    "log4js": "^3.0.6"
+  }
+}
