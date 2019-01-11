@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "LOG_LEVEL=DEBUG INFLUXDB_HOST=localhost KAFKA=true KAFKA_HOST=192.168.1.101 KAFKA_PORT=9092 node index.js"
+    "test": "LOG_LEVEL=DEBUG INFLUXDB_HOST=localhost KAFKA=true KAFKA_HOST=10.0.1.16 KAFKA_PORT=9092 node index.js"
   },
   "repository": {
     "type": "git",
