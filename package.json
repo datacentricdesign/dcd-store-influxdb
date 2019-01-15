@@ -19,7 +19,7 @@
   "homepage": "https://github.com/datacentricdesign/dcd-store-influxdb#README",
   "dependencies": {
     "influx": "^5.0.7",
-    "dcd-model": "^0.0.1",
+    "dcd-model": "^0.0.2",
     "kafka-node": "^3.0.1",
     "log4js": "^3.0.6"
   }
