@@ -1,4 +1,7 @@
-'use strict';
+#!/usr/bin/env node
+
+// Load environment variables
+require("dotenv").config();
 
 // Setting the logs
 const log4js = require('log4js');
