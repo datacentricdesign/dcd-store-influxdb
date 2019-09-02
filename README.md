@@ -1,4 +1,8 @@
-# dcd-store-influxdb
+# DCD Store - InfluxDB
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/datacentricdesign/dcd-store-influxdb)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/datacentricdesign/dcd-store-influxdb)
+![Docker Build Status](https://img.shields.io/docker/build/datacentricdesign/dcd-store-influxdb)
 
 InfluxDB store for the Data-Centric Design Hub.
 
